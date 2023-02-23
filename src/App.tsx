@@ -14,7 +14,7 @@ function App() {
 			<Main>
 				<Routes>
 					<Route path='/countries-flags/' element={<HomePage />} />
-					<Route path='/countries-flags//country/:name' element={<Details />} />
+					<Route path='/countries-flags/country/:name' element={<Details />} />
 					<Route path='*' element={<NotFound />} />
 				</Routes>
 			</Main>
